@@ -13,7 +13,7 @@ ch.setLevel(logging.INFO) # or any other level
 logger.addHandler(ch)
 
 # If you want to also write to a file
-fh = logging.FileHandler(os.path.join(Parameters["ROOT"], 'myLog.log'))
+fh = logging.FileHandler(Parameters["LOG_PATH"])
 # fh.setLevel(logging.DEBUG) # or any level you want
 fh.setLevel(logging.INFO)
 # define the format to the file

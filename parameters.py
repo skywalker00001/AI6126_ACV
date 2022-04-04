@@ -44,6 +44,7 @@ Parameters = {
     "VAL_PATH": os.path.join(ROOT, 'val'),
     "TEST_PATH": os.path.join(ROOT, 'test'),
     "RESULTS_PATH": os.path.join(ROOT, 'results'),
+    "LOG_PATH": os.path.join(ROOT, 'codes/myLog.log'),
     # Save
     "MODEL_SAVE_STEP": 5,
     "MODEL_SAVE_PATH": os.path.join(ROOT, 'models'),
